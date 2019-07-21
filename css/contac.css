@@ -1,0 +1,148 @@
+
+#nadvar strong{
+	color: black;
+	font-size: 15px;
+}
+
+#nadvar a{
+	color: black;
+	font-size: 18px;
+	font-style:normal;
+	text-align: center;
+	
+}
+#carrousel .carousel-inner{
+	max-height: 90vh; 
+	object-fit: cover;
+	
+}
+
+#divisor .col text-center pt-2 pb-2{
+	font-style: italic;
+	font-family: cursive;
+	color: aquamarine;
+}
+
+#icono{
+	width: 100px;
+	height: 100px;
+	display: scroll;
+	position:fixed;
+	bottom:0px;
+	right:0px; 
+}
+#footer{
+	background: linear-gradient(90deg,#ff4000,#f54021, 25%,#ff2301);
+	font-size: 20px;
+	font-style: italic;
+	text-align: center;
+	color: black;
+}
+#footer a{
+	color: black;
+}
+#footer p{
+	color: black
+}
+
+#footer img{
+	width: 50px;
+}
+
+#origen p{
+	text-align: justify;
+	font-family:sans-serif;
+	font-style:normal;
+	font-size: 20px;
+	color: black;
+}
+#origen h1{
+	color: black;
+}
+
+.card-columns {
+  @include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
+}
+
+.card-deck {
+  @include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
+}
+
+#servicios {
+	background-image: url(/assets/img/fondo-negocio-negro-abstracto-minimalista_69286-90.jpg)
+}
+
+#valores{
+	background-image: url(/assets/img/fondo-negocio-negro-abstracto-minimalista_69286-90.jpg)
+}
+
+#valores p{
+	text-align: justify;
+	font-family:sans-serif;;
+	font-style: oblique;
+	font-size: 17px;
+	color: black;
+}
+
+#titulo h1{
+	text-align: center;
+	font-family:sans-serif;
+	font-size: 40px;
+	color: black;
+}
+
+#titulo_2 h1{
+	text-align: center;
+	font-family:sans-serif;
+	font-size: 40px;
+	color: black;
+}
+#center row{
+	align-items: center;
+}
+
+#origen h4{
+	color: white
+}
+
+#asesoramiento strong{
+	color: whitesmoke;
+	text-align: center;
+	font-family:monospace;
+	font-style: oblique;
+}
+
+#servicios h1{
+	color: white;
+	font-family:sans-serif;
+	font-style:italic;
+	font-size: 60px;
+}
+
+#servicios img{
+	width: 273px;
+	height: 250px;
+	
+}
+#contacto img{
+	width: 50px;
+	height: 40px;
+}
+
+#titulo {
+	background-image: url(/assets/img/mercantil.jpg)
+}
+
+#titulo_2 {
+	background-image: url(/assets/img/mercantil.jpg)
+}

@@ -1,0 +1,123 @@
+#nadvar strong{
+	color: black;
+	font-size: 15px;
+}
+.carousel-inner img {
+    width: 200%;
+    max-height: 460px;
+}
+
+.carousel-inner{
+ height: 400px;
+}
+
+#nadvar a{
+	color: black;
+	font-size: 18px;
+	font-style:normal;
+	text-align: center;
+	
+}
+
+#carrousel .carousel-inner{
+	max-height: 90vh; 
+	object-fit: cover;
+	
+}
+
+#divisor .col text-center pt-2 pb-2{
+	font-style: italic;
+	font-family: cursive;
+	color: aquamarine;
+}
+
+#icono{
+	width: 100px;
+	height: 100px;
+	display: scroll;
+	position:fixed;
+	bottom:0px;
+	right:0px; 
+}
+
+#footer{
+	background: linear-gradient(90deg,#094fe7,#0a8fc4, 25%,#2257e9);
+	font-size: 20px;
+	font-style: italic;
+	text-align: center;
+	color: black;
+}
+#footer a{
+	color: black;
+}
+#footer p{
+	color: black
+}
+
+#footer img{
+	width: 50px;
+}
+
+#origen p{
+	text-align: justify;
+	font-family:inherit;
+	font-style:normal;
+	font-size: 25px;
+	color:black;
+}
+#origen h1{
+	color:black;
+}
+
+#origen {
+	background-image: url(/assets/img/marmol.jpg)
+}
+
+#origen .card{
+
+	background-color: transparent;
+}
+
+.card-columns {
+  @include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
+}
+
+.card-deck {
+  @include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
+}
+
+#servicios {
+	background-image: url(/assets/img/fondo-negocio-negro-abstracto-minimalista_69286-90.jpg)
+}
+
+#asesoramiento{
+	background-image: url(/assets/img/fondo-de-apartados1.jpg)
+}
+#asesoramiento strong{
+	text-align: center;
+	font-family:monospace;
+	font-style: oblique;
+}
+
+#servicios h1{
+	color: white;
+	font-family:sans-serif;
+	font-style:normal;
+	font-size: 60px;
+}
+
+#servicios img{
+	width: 220px;
+	height: 200px;
+	
+}
